@@ -127,12 +127,13 @@ USE_TZ = True
 
 # email settings
 
-EMAIL_HOST = 'smtp.hushmail.com'
+EMAIL_HOST = 'smtp.gmail.com'
 EMAIL_HOST_USER = 'prazzwalthapa87@gmail.com'
-EMAIL_HOST_PASSWORD = 'Jack16sparrow'
+EMAIL_HOST_PASSWORD = '#'
 EMAIL_PORT = 587
 EMAIL_USE_TLS = True
 EMAIL_USE_SSL = False
+EMAIL_BACKEND = 'django.core.mail.backends.smtp.EmailBackend'
 # Static files (CSS, JavaScript, Images)
 # https://docs.djangoproject.com/en/3.1/howto/static-files/
 
